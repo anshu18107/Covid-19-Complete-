@@ -1,0 +1,157 @@
+body {
+    background-color: #F5F6FA;
+}
+
+.main {
+    min-height: 900px;
+    max-width: 1370px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.map-container {
+    background-color: white;
+    border-radius: 16px;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,.05);
+    box-shadow: 0 0 8px -5px rgba(0,0,0, 0.5);
+}
+
+.map-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #6A5D5D;
+}
+
+.map-header h4 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#map {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.chart-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chart-container .col {
+    background-color: #EFF2F6;
+    border-radius: 12px;
+}
+
+.linear-chart {
+    height: 100%;
+}
+
+.title-container h2 {
+    color: #fc3c3c;
+    margin-bottom: 0;
+}
+
+.title-container h4 {
+    text-transform: uppercase;
+    color: #CACBCF;
+}
+
+.stats-container .card {    
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 8px -4px rgba(0,0,0, 0.5);
+}
+
+.stats-container .card-body {
+    padding: 1rem;
+}
+
+.stats-container .card-title {
+    color: #695d5c;
+    font-weight: 400;
+}
+
+.stats-container .card-subtitle {
+    font-weight: 600;
+}
+
+.stats-container .total {
+    font-size: 0.8rem;
+}
+
+.side-panel-container {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 8px -4px rgba(0,0,0, 0.5);
+    padding-top: 15px;
+}
+
+.table-cases-number {
+    text-align: right;
+    font-weight: 500;
+}
+
+.total-number {
+    color: #cc1034;
+}
+
+.recovered-number {
+    color: #7fd922;
+}
+
+.deaths-number {
+    color: #FA5575;
+}
+
+.cases-table-container h4, .chart-container h4 {
+    color: #6A5D5D;
+    font-weight: 400;
+}
+
+.country-data .table {
+    color: #6A5D5D;
+}
+
+.country-data .table td {
+    padding: 0.5rem;
+    border: none;
+}
+
+.country-data .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #F3F2F8;
+}
+
+.tab-selection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8px;
+    display: none;
+}
+
+.tab-selection.selected {
+    display: block !important;
+}
+
+.cases .tab-selection {
+    background-color: #CC1034;
+}
+
+.recovered .tab-selection {
+    background-color: #7fd922;
+}
+
+.deaths .tab-selection {
+    background-color: #FA5575;
+}
+
